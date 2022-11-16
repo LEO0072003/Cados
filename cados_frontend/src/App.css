@@ -1,0 +1,56 @@
+body{
+  background-color: black;
+  color: aliceblue;
+}
+
+a{
+  color: aquamarine;
+}
+
+.advocate__preview__image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid aquamarine;
+}
+
+.advocate_list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4em;
+}
+
+.form--wrapper{
+  margin: 2em 0;
+}
+
+input{
+  padding: 1em;
+  font-size: 16px;
+  background-color: #2b3031;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+}
+
+.btn--primary{
+  background-color: aqua;
+  color: black;
+}
+
+.advocate__preview__header{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.main--container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bio--preview{
+  display: block;
+  margin: 1em;
+}
+
